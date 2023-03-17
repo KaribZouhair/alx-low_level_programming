@@ -1,5 +1,11 @@
 #include <stdio.h>
+
 /* a program for displaying and size of each type */
+/**
+ * main - Entry point
+ *
+ * Return: Always 0 (Success)
+ */
 int main(void)
 {
 	int i;
