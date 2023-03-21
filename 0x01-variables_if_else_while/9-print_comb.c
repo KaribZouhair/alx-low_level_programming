@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 /**
- * main - printing all possible combinations of single digits.
+ * main - printing all combinations of single digits.
  *
  * Return: Always 0.
  */
@@ -14,7 +14,7 @@ int main(void)
 		putchar((n % 10) + '0');
 		if (n == 9)
 			continue;
-		
+
 		putchar(',');
 		putchar(' ');
 	}
